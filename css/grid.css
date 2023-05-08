@@ -1,0 +1,147 @@
+*{
+  color: #2A262D;
+  font-family: 'lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*navegacion*/
+.nav-list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+  .container {
+    margin:  auto;
+    display: grid;
+    max-width: 1024px, auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+  }
+  .container-fluid{
+  
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    justify-content: center;
+    align-items: center;;
+  }
+      
+.d-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*GRID*/
+  @media screen and (min-width: 600px) {
+   .xl-one{
+     grid-column: span 1;
+     
+   }
+   .xl-two{
+     grid-column: span 2;
+     
+   }
+   .xl-three{
+     grid-column: span 3;
+     
+   }
+   .xl-four{
+     grid-column:  span 4;
+     
+   }
+   .xl-five {
+     grid-column:  span 5;
+     
+   }
+   .xl-six{
+     grid-column: span 6;
+     
+   }
+   .xl-seven{
+     grid-column:  span 7;
+     
+   }
+   .xl-eight {
+     grid-column: span 8;
+      
+   }
+   .xl-nine{
+     grid-column:  span 9;
+     
+   }
+  .xl-ten{
+    grid-column: span 10;
+    
+  }
+  .xl-eleven {
+    grid-column:  span 11;
+    
+  }
+  .xl-twelve {
+    grid-column: span 12;
+    
+  }
+}
+
+
+  @media screen and (max-width: 600px) {
+   .xs-one{
+     grid-column: span 1;
+     
+   }
+   .xs-two{
+     grid-column: span 2;
+     
+   }
+   .xs-three{
+     grid-column: span 3;
+     
+   }
+   .xs-four{
+     grid-column: span 4;
+     
+   }
+   .xs-five {
+     grid-column: span 5;
+     
+   }
+   .xs-six{
+     grid-column:  span 6;
+     
+   }
+   .xs-seven{
+     grid-column:  span 7;
+     
+   }
+   .xs-eight {
+     grid-column:  span 8;
+      
+   }
+   .xs-nine{
+     grid-column:  span 9;
+     
+   }
+  .xs-ten{
+    grid-column:  span 10;
+    
+  }
+  .xs-eleven {
+    grid-column: span 11;
+    
+  }
+  .xs-twelve {
+    grid-column:  span 12;
+    
+  }
+}

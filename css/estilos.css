@@ -1,0 +1,873 @@
+/*HEADER*/
+header{
+    background-color: #23171B;
+    position: fixed;
+    transition: height 0.2s ;
+    z-index: 5;
+
+}
+
+header  img{
+    transition: height 0.2s, width 0.2s;   
+}
+
+
+/*COLORES*/
+.bcolor-proof{
+    background-color: greenyellow;
+}
+.bcolor-first{
+    background-color: #23171B;
+}
+.color-first{
+    color:#23171B;
+}
+.bcolor-second{
+    background-color: #A5561B;
+}
+.color-second{
+    color:#A5561B;
+}
+.color-white{
+    color: white;
+}
+
+h1,h2,h3,h4, h5{
+    color: #23171B;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.f-18{
+    font-size: 18px;
+}
+.f-22{
+    font-size: 22px;
+}
+.f-26{
+    font-size: 26px;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+.fw-bold{
+    font-weight:bold;
+}
+
+body{
+    position: relative;
+}
+
+
+.c-dg{
+    color: darkgrey;
+}
+.c-principal{
+    color: #23171B;
+}
+
+.bgc-principal{
+   background-color:#23171B;
+}
+.c-brownlight{
+   color: #ca9a59; 
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.falsoHeader{
+    height: 100px;
+
+}
+
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+/*------------------HEADER--------------------*/
+/*--------------------------------------------*/
+/*--------------------------------------------*/
+
+
+/*-----------------------first----------------------*/
+/*-----------------------section--------------------*/
+#portada{
+    padding: 15px;
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap:  10px;
+    background-repeat: no-repeat;
+    background-image: url(../img/portadaMobil/portadaIndex.png);
+    background-size: 100%;
+}
+
+#portada img{
+    width: 100%;
+}
+#empanadas article{
+    display: flex;
+    height: 150px;
+    transition: box-shadow 0.5s;
+}
+
+#empanadas article:hover{
+    -webkit-box-shadow: -8px 9px 16px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 9px 16px -17px rgba(0,0,0,0.75);
+    box-shadow: -8px 9px 16px -17px rgba(0,0,0,0.75);
+}
+#empanadas article .img{
+    background-color: #2A262D;
+    height: 100%;;
+    width: 45%;
+    overflow: hidden;
+}
+#empanadas article .img img{
+    width: 100%;
+    transform: scale(1.5);
+}
+
+#empanadas .descripcion{
+    padding: 10px;
+    height: 200px;
+    width: 55%;
+}
+#empanadas article .descripcion form button{
+        width: 100%;
+    }
+
+#empanadas h3  {
+         font-size: 18px;
+         font-weight: bolder;
+        margin: 30px;
+    }
+
+#empanadas h3 span{
+    font-size: 18px;
+    color: #A5561B;
+}
+
+
+.descargar{
+   
+    display: flex;
+    flex-direction: column;
+}
+
+.descargar article:first-of-type{
+
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.descargar article:last-of-type{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descanso{
+    margin-top: 50px;
+    width:100vw;
+    height: 300px;
+    background-color: gainsboro;
+}
+
+  /*-----------------------------------------*/
+  /*----------------Menu Movil---------------*/
+  /*-----------------------------------------*/
+#menu{
+    background-color: rgba(35, 23, 27, 0.5);
+    position: fixed;
+    z-index: 6;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+#menu nav{
+    width: 50vw;
+    background-color: #23171B;
+    height: 100vh;
+    right: 0;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    padding: 0;
+    width: 100%;
+}
+
+#menu nav ul li a{
+    color: white;
+    font-size: 18px;
+}
+
+#cerrar{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+#abrir{
+    width:80px;
+    height: 80px;
+    background-color:#23171B ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 13vh;
+    right: 10vw;
+    z-index: 2;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+}
+    /*-----------------------------------------*/
+  /*----------------Menu Movil---------------*/
+  /*-----------------------------------------*/
+
+
+/*-----------------------------------------*/
+/*----------------Epanadas page 2----------*/
+/*-----------------------------------------*/
+
+#portadaEmpanada{
+    background-color: grey;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/portadaEmpanada.jpg);
+}
+#portadaEmpanada img{
+    width: 80%;
+}
+#portadaEmpanada h1{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+#empanadasDos{
+    width:100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 15px 5px;
+}
+
+#empanadasDos h2{
+    grid-column: 1/3;
+
+}
+#empanadasDos article{
+    width: 155px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#empanadasDos article p{
+   width: 100%;
+}
+#empanadasDos  h3{
+    grid-column: span 2; 
+}
+#empanadasDos  h3 span{
+    color:#A5561B;
+}
+#empanadasDos article img{
+ width: 100%;   
+}
+
+/*---------------------------------|-------*/
+/*----------------Descripción productos--|-------*/
+/*---------------------------------v-------*/
+
+#description{
+    padding: 15px;
+  display: grid;
+  grid-template-columns:  1fr;
+  grid-gap: 15px;
+}
+
+#description article:first-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+#description article:last-of-type{
+    grid-column: auto;
+}
+
+
+.formDescription{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    padding: 50px 0;   
+}
+#description article .formDescription input[type=submit]{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-size: 22px;
+    border: none;
+}
+#nuetrasEmpanadas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 50px auto;
+}
+
+#nuetrasEmpanadas h3{
+    grid-column: 1/3;
+}
+.icono{
+    cursor: pointer;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    border: 2px solid #212529;  
+}
+.icono:hover{
+    text-decoration: none;
+}
+
+.icono img{
+    height: 40px;
+    margin: 20px 0;
+}
+
+/*---------------------------------|-------*/
+/*----------------Epanadas 4 quienes somos--|-------*/
+/*---------------------------------v-------*/
+
+.cabeceraEmp{
+    background-color: orange;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px 0;
+    background-image: url(../img/portadaQuienesSomos.jpg);
+}
+#quienesSomos{
+    display: grid;
+    
+}
+
+#quienesSomos article:last-of-type{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quienesSomos article:last-of-type img{ 
+  width: 65%;
+  border-radius: 100px;
+border: 10px solid #23171B;
+}
+#quienesSomos h1{
+    text-align: center;
+}
+
+
+.visitanos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.visitanos article{
+    width: 100%;
+    height: 116px;
+    overflow: hidden;
+}
+
+.visitanos article img{
+    height: 100%;
+    width: auto;
+    transition: transform 0.1s;
+    
+    
+}
+
+.visitanos article:nth-child(3) img{
+    width: 100%;
+    height: auto;
+}
+
+.visitanos article:nth-child(8) img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.modalImg{
+    width: 100vw;
+    height: 100vh;
+    background-color: #23171B;
+    position:fixed;
+    top: 0;
+    z-index: 6;
+    display: none;
+}
+
+.modalImg .container{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.modalImg .container img{
+    width: 100%;
+    
+}
+
+.modalImg  .cerrarImg{
+    background-color: red;
+    font-size: 50px;
+    color: white;
+}
+
+
+/*---------------------------------|-------*/
+/*----------------contactanos--|-------*/
+/*---------------------------------v-------*/
+
+#contactanos{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 35px;
+    
+}
+
+
+#contactanos form{
+    display: flex;
+    flex-direction: column;
+}
+#contactanos form input{
+    margin-bottom: 20px;
+}
+#contactanos form textarea{
+    margin-bottom: 20px;
+}
+
+
+
+
+.datosPersonales, .datosFacturacion,.despacho{
+    display: flex;
+    flex-direction: column;
+}
+.datosPersonales{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+
+.encuentranos{
+     padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    grid-template-rows: auto;
+}
+
+.encuentranos h2{
+    grid-column: 1/2;
+}
+.encuentranos article:first-of-type  iframe{
+   width: 100%;
+    height: 150px;
+}
+
+.encuentranos article:last-of-type {
+    grid-row:2/3 ;
+}
+
+
+
+.encuentranos article:last-of-type ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+
+/*-----------------------------------*/
+/*----------------registrate---------*/
+/*-----------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------*/
+/*---------------------Carro compras-----------------------------*/
+/*--------------------------------------------------*/
+.wrap{
+   max-width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 15px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapp{
+    margin-bottom: 10px;
+    display: grid;
+    max-width: 1024px, auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.datosForm{
+    width: 100%;
+  
+  
+}
+.datosForm form{
+ 
+    display:flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+.datosForm form input{
+    padding: 10px 5px 0 5px;
+    border: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(35, 23, 27, 0.1);
+}
+
+.carroCompras{
+
+    width: 100%;
+    height: 100%;
+    grid-row: 2/3;
+    }
+.carroCompras .cesta {
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr); 
+    justify-items: center;
+   align-items: center;
+    border:1px solid rgba(35, 23, 27, 0.1);
+}
+
+.carroCompras .cesta:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.3);
+box-shadow: -1px -1px 13px 0px rgba(0,0,0,0.3);
+}
+.carroCompras article button {
+    border: none;
+    padding: 8px;
+}
+
+.carroCompras article form button {
+    height: 30%;
+}
+
+
+
+.carroCompras article img{
+    height: 50%;
+}
+.costoEnvio, .total{
+
+    min-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(35, 23, 27, 0.1);
+}
+.total p, .costoEnvio p{
+    margin: 0;
+    padding: 0;
+ 
+    text-align: center;
+}
+
+.img-cesta, .nombre-cesta, .catidad-cesta, .borrar-cesta, .total-cesta{
+    height: 100%;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nombre-cesta p{
+    text-align: center;
+}
+
+
+
+
+
+/*---------------------------------------------------*/
+/*-------------------Footer-------------------------*/    
+/*---------------------------------------------------*/    
+/*---------------------------------------------------*/    
+footer{
+    background-color: #23171B;
+
+}
+
+.logoFotter{
+    width: 100%;
+    height: 80%;
+    margin: 30px 0;
+}
+.listaFooter { 
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+
+
+footer .listaFooter li,footer .menuFooter ul li a{
+    font-size: 13px;
+    color: white;
+}
+.menuFooter{
+    margin: 0 0 100px 0;
+    padding: 0;
+}
+.menuFooter ul{
+    padding: 15px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:#A5561B;
+    justify-content:space-around;
+}
+
+
+.registrado p{
+    font-size: 16px;
+    text-align: center;
+    color:white;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*----------------------button carro de compra------------------------*/
+/*----------------------------------------------------------------------------*/
+#shopp{
+        background-color: #23171B;
+        height: 80px;
+        width: 80px;
+        display: none;
+        position: fixed;
+        bottom: 13vh;
+        left: 10vw;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+ 
+    
+    }
+    #shopp a{
+         position: relative
+    }
+    #shopp a img{
+         width: 30px;
+        height: 30px;
+    }
+    #shoppCont{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom:-14px;
+        right: -14px;
+        height: 28px;
+        width: 28px;
+        border-radius: 15px;
+        background-color: #f20505;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/*confirmacion de productos, modal confirm*/
+/*confirmacion de productos, modal confirm*/
+
+#modalConfirm{
+    display: none;
+    background-color: rgba(35, 23, 27, 0.91);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+#wrapConfirm{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 85vw;
+    height: 55vh;
+    
+}
+
+#headerConfirm{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#nombreP{
+    font-size: 1em;
+    color: #ca9a59;
+}
+#confirmInfo{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#agregarCarroForm{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+      
+}
+
+#agregarCarro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-column: 1/3;
+}
+
+#agregarCarro input[type=number]{
+    border: none;
+    width:200px;
+    height: 200px;
+    font-size: 5rem;
+    color: #ca9a59;
+    text-align: center;
+    font-weight: bold;
+}
+
+#agregarCarroForm #agregar{
+    width: 100%;
+}
+
+#agregarCarroForm #cerrarConfirm button{
+    width: 100%;
+}
+
+
+/*confirmacion de productos, modal confirm*/
+/*confirmacion de productos, modal confirm*/
+
+
+
+/* page perfil.php*/
+.perfil{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    
+}
+
+.perfil input{
+    border: none;
+    font-size: 22px;
+    border-bottom: 1px solid red; 
+    padding-top: 5px;
+    
+}
+
+
+
+
+

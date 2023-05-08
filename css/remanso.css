@@ -1,0 +1,298 @@
+.headerfalsoindex{
+    height: 100px;
+    width: 100vw;
+    background-color: white;
+}
+
+
+
+.bcolor-one{
+    background-color: #23171B;
+}
+.bcolor-two{
+    background-color: aliceblue;
+}
+.bcolor-three{
+    background-color: #985623;
+}
+
+.bcolor-white{
+    background-color: white;
+}
+
+#portadaIndex{
+    height: 350px;
+    background-image: url(../img/portadas/portadaIndex.jpg);
+}
+#portadaEmpanadas{
+    height: 350;
+    background-image: url(../img/portadas/portadaEmpanada.jpg);
+    background-size: auto;
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+#portadaConocenos{
+    height: 350px;
+    background-image: url(../img/portadas/portadaEmpanada.jpg);
+}
+#portadaContactanos{
+    height: 350px;
+    background-image: url(../img/portadas/portadaEmpanada.jpg);
+}
+.abrirModalConfirm{
+    width: 100%;
+}
+.p-l-15{
+    padding: 0 15px;
+}
+.h-350{
+    height: 350px;
+}
+.h-500{
+    height: 500px;
+}
+
+.m-8{
+    margin: 8px;
+}
+.margin_top_bottom_15{
+    margin: 15px 0;
+}
+
+#imgCirculo{
+    border: 10px solid #23171B;
+    border-radius: 200px;
+}
+
+
+/*---------------------------------------------------*/
+/*-------------------Footer-------------------------*/    
+/*---------------------------------------------------*/    
+/*---------------------------------------------------*/    
+footer{
+    background-color: #23171B;
+
+}
+
+.logoFotter{
+    width: 100%;
+    height: 80%;
+    margin: 30px 0;
+}
+.listaFooter { 
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+}
+
+
+
+footer .listaFooter li,footer .menuFooter ul li a{
+    font-size: 13px;
+    color: white;
+}
+.menuFooter{
+    margin: 0 0 100px 0;
+    padding: 0;
+}
+.menuFooter ul{
+    padding: 15px 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color:#A5561B;
+    justify-content:space-around;
+}
+
+
+.registrado p{
+    font-size: 16px;
+    text-align: center;
+    color:white;
+}
+
+.icono{
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    border: 2px solid #212529;  
+}
+.icono:hover{
+    background-color: #23171B;
+}
+.icono:hover p{
+    
+    color: white;
+}
+.icono img{
+    height: 40px;
+    margin: 20px 0;
+}
+
+
+.xl-galeria div{
+    overflow: hidden;
+}
+.xl-galeria div img{
+   transition: transform 0.1s;
+}
+.xl-galeria div:hover img{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+
+
+
+.modal-galeria{
+    background-color: rgba(35, 23, 27, 0.8);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    
+}
+
+.container-galeria{
+    max-width: 800px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*===================================================================*/
+label{
+    width: 100%
+}
+
+.border{
+    border: 1px solid #23171B;
+}
+
+
+
+/*===================================================================*/
+
+#shopp{
+    width: 50px;
+    position: relative;
+    
+}
+
+#shoppCont{
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -10px;
+    right: 0px;
+}
+   
+/*======================================================================================================*/
+#btn-menu{ 
+    
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    height: 80px; 
+    width: 80px;
+    border: none;
+    border-radius: 50px; 
+    z-index: 30;
+} 
+#menu-movil{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 31;
+}
+
+#menu-movil ul {
+	list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#cerrar{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+#carro-compras{
+    position: fixed;
+    bottom: 60px;
+    left: 30px;
+    height: 80px; 
+    width: 80px;
+    border: none;
+    border-radius: 50px; 
+    z-index: 30; 
+
+}
+#cantidad {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+header{
+    width: 100vw;
+    transition: height 0.2s;
+}
+header a img{
+    transition: width 0.2s
+
+}
+#shopp{
+    display: none;
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.31);
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    grid-gap: 50px;
+
+}
+#numero{
+    width: 50px;
+    height: 50px;
+}
+
